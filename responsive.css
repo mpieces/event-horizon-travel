@@ -7,13 +7,17 @@
 
 @media (min-width: 1200px) {
     /* changed line-height and letter-spacing properties */
+
+    .extra-pic {
+      display: none;
+    }
 }
 
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /** Right margin showing!*/
+  /** Right white space showing!*/
 
   .section-header-text {
     line-height: 50px;
@@ -30,6 +34,10 @@
   .romantic-text-block {
     min-width: 300px;
   }
+
+  .extra-pic {
+      display: none;
+    }
 }
 
 
@@ -80,6 +88,10 @@
       margin-left: 20px;
     }
 
+    .extra-pic {
+      display: none;
+    }
+
 }
 
 
@@ -101,6 +113,14 @@
   #travel-content-box {
     margin-top: 150px;
     width: 500px;
+  }
+
+  .section-header-text {
+    line-height: 50px;
+  }
+
+  .section-header-left {
+    padding-top: 20px;
   }
 
   #experience-beyond {
@@ -177,6 +197,7 @@
   }
 
   .section-header-left {
+    margin-top: 100px;
     padding: 0 50px 0 50px;
   }
 
