@@ -1,0 +1,774 @@
+/*====================================================
+                DEFAULT VALUES:
+
+                Font Family                 : Antic Didone (headings), Advent Pro (body)
+
+                Gray               : #5e5d56       (Buttons, Icons, Links, Lines & Backgrounds)
+                Gray                  : #5e5d56      (Headings)
+                Blue                  : #04047b       (Paragraphs)
+                White                       : #fff          (Text With Black Backgrounds)
+                Black                       : #000
+
+======================================================*/
+
+
+
+html, body {
+  height: 100%;
+}
+
+/*====================================================
+                        GENERAL TYPOGRAPHY
+======================================================*/
+h1 {
+  font-family: 'Antic Didone', serif;
+  font-size: 71px;
+  letter-spacing: 10px;
+  color: #5E5D56;
+}
+
+h2 {
+  font-family: 'Antic Didone', serif;
+  font-size: 60px;
+  letter-spacing: 8.5px;
+}
+
+h3 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 25px;
+  letter-spacing: 7.77px;
+  font-weight: 300;
+}
+
+p {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: .8px;
+  color: #04047b;
+}
+
+.section-header-text {
+  font-size: 48px;
+  /*text-indent: 20px;*/
+  letter-spacing: 3px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.cursive {
+  font-family: 'Great Vibes', cursive;
+  font-size: 48px;
+  color: #04047b;
+  line-height: 1;
+}
+
+/*Bottom of page*/
+.article-text {
+  font-size: 24px;
+}
+
+/*====================================================
+                        BUTTONS
+======================================================*/
+
+.btn-secondary {
+  background-color: #5e5d56;
+  border-color: #5e5d56;
+  border-radius: 0;
+}
+
+.btn-read {
+  color: #535d56;
+  background-color: #fff;
+}
+
+.btn-blue {
+  background-color: #04047b;
+  border-color: #04047b;
+}
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 22px;
+  padding: 3px 15px;
+  border-radius: 0;
+}
+
+#back-to-top a, .fa-angle-up {
+  color: #fff;
+}
+/*====================================================
+                        NAVBAR
+======================================================*/
+.navbar {
+  opacity: 0.8;
+  background: rgba(255,255,255,0.80);
+  box-shadow: 0 15px 4px 0 rgba(0,0,0,0.50);
+}
+
+.navbar-toggler {
+  margin-top: 70px;
+  border: none;
+}
+
+.navbar-toggle-label {
+  color: #04047b;
+  font-size: 1rem;
+}
+
+.navbar-toggle-label:hover {
+  border-bottom: 5px solid #04047b;
+}
+
+.nav-link {
+  float: right;
+}
+
+#logo {
+ max-width: 300px;
+ height: auto;
+}
+
+/*====================================================
+                        HOME
+======================================================*/
+
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("assets/image_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#home-heading h1 {
+  color: #fff;
+  font-family: 'Antic Didone', serif;
+  font-size: 71px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  /*font-weight: 700;*/
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 25px;
+  letter-spacing: 7.77px;
+  font-weight: 600;
+}
+
+#welcome-text-block {
+  background-color: white;
+  width: 50%;
+  height: 150px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#welcome-text {
+  position: absolute;
+  top: 30px;
+}
+
+#first-letter {
+  font-size: 170px;
+  line-height: 118px;
+  margin-left: -86px;
+}
+
+#welcome-paragraph {
+  padding-top: 50px;
+  height: 200px;
+  float: right;
+}
+
+/*First Div with border and circle image*/
+#line-block {
+  float: right;
+  margin-top: 100px;
+  border-top: 1px solid #5E5D56;
+  border-left: 1px solid #5E5D56;
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+#line-block img {
+  position: absolute;
+  left: -15px;
+  bottom: -15px;
+}
+
+/*====================================================
+                        PASSION FOR TRAVEL SECTION
+======================================================*/
+#travel {
+  margin-top: 200px;
+}
+
+
+#travel-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url("assets/image_2.jpg");
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+}
+
+#travel-content-box {
+  float: left;
+  width: 400px;
+  height: 700px;
+}
+
+#travel-content-box-outer {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+#travel-content-box-inner {
+  padding-top: 0;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#travel-content-box-inner p {
+  color: #04047b;
+}
+
+
+/*
+.cabana img {
+  width: 65%;
+  float: right;
+}
+
+.content {
+  width: 35%;
+  padding: 30px;
+  right: auto;
+  left: 200px;
+  top: 200px;
+  display: block;
+  float: left;
+  position: absolute;
+  background: #F1F1F2;
+  border-radius: 4px;
+  color: #3f484d;
+  z-index: 51;
+}*/
+
+
+/*====================================================
+                        PARALLAX (Generic)
+======================================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+/*.main-image {
+  position: relative;
+}*/
+
+/*.header-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}*/
+
+/*.subheader-text {
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}*/
+
+
+/*
+.text-block {
+  position: relative;
+  padding-top: 25px;
+
+  left: 50%;
+}
+*/
+/*.line-block-0 {
+  position: absolute;
+  left: 25%;
+  border-top: 1px solid #5E5D56;
+  border-left: 1px solid #5E5D56;
+  height: 150px;
+  width: 300px;
+}*/
+/*
+.line-block-0 img {
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+}
+
+.feature {
+  position: relative;
+}
+
+.bg {
+  background-size: cover;
+  min-height: 200px;
+  padding: 60px 0;
+}*/
+
+/*====================================================
+                        EXPERIENCE BEYOND SECTION
+======================================================*/
+#experience-beyond {
+  margin-top: 100px;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  width: 100%;
+  /*position: relative;*/
+}
+
+.section-header-left {
+  background-color: white;
+  /*min-height: 150px;*/
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding: 50px;
+}
+
+.text-wrapper {
+  padding: 40px;
+}
+
+
+.line-block {
+  position: absolute;
+  left: 25%;
+  border-left: 1px solid #5E5D56;
+  border-bottom: 1px solid #5E5D56;
+  height: 100px;
+  width: 400px;
+  /*float: right;*/
+}
+
+.line-block img {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  bottom: -15px;
+  right: -11px;
+}
+
+/*.experience-text-block {
+  position: absolute;
+  left: 50%;
+  padding-top: 50px;
+  padding-left: 100px;
+}*/
+
+/*====================================================
+                        LEISURE TRAVEL SECTION
+======================================================*/
+
+/*Wrapper for right section header title*/
+.section-header-right {
+  background-color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding: 50px;
+}
+
+.line-block-2 {
+  position: absolute;
+  right: 35%;
+  display: inline;
+  border-right: 1px solid #5E5D56;
+  border-bottom: 1px solid #5E5D56;
+  height: 100px;
+  width: 400px;
+}
+
+.line-block-2 img {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  bottom: -15px;
+  left: -11px;
+  z-index: 10;
+}
+
+
+/*====================================================
+                        ROMANTIC GETAWAYS
+======================================================*/
+.wine img {
+  float: left;
+  max-height: 577px;
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+.wine {
+  position: relative;
+}
+
+.romantic-text h1 {
+  width: 800px;
+  background-color: white;
+  height: 150px;
+  position: absolute;
+  top: 350px;
+  left: 400px;
+  padding: 50px;
+}
+
+.line-block-3 {
+  position: absolute;
+  top: 450px;
+  left: 600px;
+  border-left: 1px solid #5E5D56;
+  border-bottom: 1px solid #5E5D56;
+  height: 100px;
+  width: 400px;
+  z-index: 10;
+}
+
+.line-block-3 img {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  bottom: -15px;
+  right: -11px;
+  z-index: 10;
+}
+
+.romantic-text-block {
+  position: absolute;
+  /*display: inline;*/
+  left: 600px;
+  top: 600px;
+  min-width: 400px;
+}
+
+
+/*====================================================
+                        GROUP TRAVEL
+======================================================*/
+
+#group-travel {
+  margin-top: 200px;
+}
+
+
+
+
+
+/*====================================================
+                      FAVORITE DESTINATIONS
+======================================================*/
+#favorite-destinations {
+  margin-top: 100px;
+}
+
+#favorite-destination-text {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.row.no-gutters [class*=col-] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  transition: transform .5s ease;
+  max-height: 400px;
+}
+
+.img-wrapper img:hover {
+  transform: scale(1.5);
+  cursor: zoom-in;
+}
+
+#group-pool {
+  margin-top: 300px;
+  max-width: 766px;
+  max-height: 466px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 200px;
+}
+/*
+.favorite-text {
+  position: absolute;
+  left: 750px;
+  margin-top: 100px;
+}*/
+
+#snow {
+  max-width: 477px;
+  max-height: 477px;
+  box-shadow: 10px 10px 4px 0 rgba(0,0,0,0.50);
+  z-index: 10;
+  position: relative;
+  left: 100px;
+}
+
+#ship {
+  max-width: 649px;
+  max-height: 487px;
+  position: relative;
+  top: 300px;
+
+}
+
+/*====================================================
+                       LINE SCHEMA
+======================================================*/
+
+.blocks {
+  margin-top: 100px;
+  height: 200px;
+}
+
+.block-1 {
+  border-right: 1px solid #5E5D56;
+  border-bottom: 1px solid #5E5D56;
+}
+
+.block-2 {
+  border-bottom: 1px solid #5E5D56;
+}
+
+.block-3 {
+  height: 100px;
+  border-left: 1px solid #5E5D56;
+  border-right: 1px solid #5E5D56;
+}
+
+.block-4 {
+  border-right: 1px solid #5E5D56;
+}
+
+#left-circle {
+  position: absolute;
+  left: -15px;
+  bottom: -15px;
+}
+
+#middle-top-circle {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+#middle-circle {
+  position: absolute;
+  left: -15px;
+  bottom: -15px;
+}
+
+#right-circle {
+  position: absolute;
+  right: -15px;
+  bottom: -15px;
+}
+
+/*====================================================
+                        ARTICLES SECTION
+======================================================*/
+
+.articles {
+  margin-top: 50px;
+}
+
+.articles img {
+box-shadow: 5px 5px 4px 0 rgba(0,0,0,0.50);
+}
+/*Bootstrap overrides:*/
+.img-thumbnail {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+/*Article Titles:*/
+.article-text {
+  margin-top: 50px;
+  letter-spacing: 2px;
+}
+
+.article-body {
+  margin-top: 50px;
+  letter-spacing: 0;
+}
+
+/*====================================================
+                        CONTACT SECTION
+======================================================*/
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(4,4,123);
+  padding-top: 30px;
+  border-top: 10px solid rgba(4,4,123,0.8);
+ /* padding-left: 30px;
+  padding-right: 30px;*/
+}
+
+#logo-white {
+  margin-bottom: 30px;
+}
+
+#contact-left p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#contact-info {
+  background-image: url("assets/world-map.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#contact-right p {
+  color: #fff;
+}
+
+form .form-control {
+    background: #fff;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+/*====================================================
+                        FOOTER
+======================================================*/
+
+#footer-bottom {
+  background-color: #5e5d56;
+  /*padding: 30px 0;*/
+  margin-top: 60px;
+}
+
+#footer-copyrights p {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+#footer-copyrights a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+/*Blue Shaped footer*/
+
+/*#blue-shape {
+  margin-top: 100px;
+  background-image: url("assets/rectangle.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}*/
+/*#blue-shape {
+  position: relative;
+}
+
+#blue-shape img {
+  margin-top: 100px;
+  width: 100%;
+  max-height: 400px;
+}*/
+
+/*#logo-wrapper-outer {
+  display: table;
+  width: 100%
+  height: 100%;
+}
+
+#logo-wrapper-inner img {
+  display: table-cell;
+  vertical-align: middle;
+  max-width: 200px;
+}*/
+
+/*====================================================
+                        SOCIAL
+======================================================*/
+
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 25px;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #5e5d56;
+}

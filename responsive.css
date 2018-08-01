@@ -1,0 +1,252 @@
+/*==================================================
+      Bootstrap 3 Media Queries
+==================================================*/
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* changed line-height and letter-spacing properties */
+}
+
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /** Right margin showing!*/
+
+  .section-header-text {
+    line-height: 50px;
+  }
+
+  .line-block-2 {
+    width: 300px;
+  }
+
+  .line-block-3 {
+    width: 300px;
+  }
+
+  .romantic-text-block {
+    min-width: 300px;
+  }
+}
+
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #travel-content-box-outer {
+        width: 75%;
+        margin-top: 20px;
+    }
+
+    .section-header-text {
+        line-height: 50px;
+    }
+
+    .line-block {
+        width: 300px;
+    }
+    .line-block-2 {
+    width: 250px;
+    }
+
+    .wine img {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .romantic-text h1 {
+        top: 700px;
+        left: 20%;
+        padding: 0;
+    }
+
+    .romantic-text-block {
+        left: 20%;
+        margin-top: 175px;
+    }
+
+  .line-block-3 {
+    display: none;
+    }
+
+    #group-travel {
+        margin-top: 300px;
+    }
+
+    #contact-right {
+      margin-left: 20px;
+    }
+
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+  /*max: 650*/
+  #travel-bg-diagonal {
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: 350px;
+  }
+
+  #line-block {
+    display: none;
+  }
+
+  #travel-content-box {
+    margin-top: 150px;
+    width: 500px;
+  }
+
+  #experience-beyond {
+    margin-top: 0;
+  }
+
+  .line-block {
+    display: none;
+  }
+
+  .line-block-2 {
+    display: none;
+  }
+/*need to center align image */
+  .wine img {
+    margin: auto;
+    float: none;
+  }
+
+  .romantic-text h1 {
+    top: 500px;
+    left: 0;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .romantic-text-block {
+    top: 650px;
+    left: 0;
+  }
+
+  .line-block-3 {
+    display: none;
+  }
+
+/*Line schema hidden*/
+  .lines {
+    display: none;
+  }
+
+  .articles {
+    margin-top: 100px;
+  }
+
+  .img-thumbnail img {
+    max-width: 50%;
+    margin: 0 auto;
+
+  }
+
+  .article {
+    margin-top: 50px;
+  }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 480px) {
+  #welcome-text-block {
+    display: none;
+  }
+
+  #travel-content-box {
+    max-width: 450px;
+  }
+
+  #experience-beyond {
+    margin-top: -100px;
+  }
+
+  .section-header-text {
+    line-height: 50px;
+  }
+
+  .section-header-left {
+    padding: 0 50px 0 50px;
+  }
+
+  .section-header-right {
+    padding: 0 50px 0 50px;
+  }
+
+  .romantic-text h1 {
+    max-width: 450px;
+    padding: 0 50px 0 50px;
+  }
+
+  .romantic-text-block {
+    max-width: 450px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  #group-travel {
+    margin-top: 300px;
+  }
+
+  #group-travel .section-header-left h1 {
+    padding: 0 50px 0 0;
+  }
+
+  .group-travel-image img {
+    margin-bottom: 125px;
+  }
+
+  .img-thumbnail {
+    max-width: 50%;
+    margin-left: 25%;
+  }
+
+  /*+ need to change width of Greece picture*/
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller devices) */
+
+@media (max-width: 400px) {
+
+  /*(changed from 320 to 400px)*/
+  #logo {
+    margin: 0 auto;
+
+  }
+  .navbar-toggler {
+    margin-left: 85%;
+  }
+
+  #travel-content-box {
+    max-width: 320px;
+  }
+
+  #experience-beyond img {
+    margin-bottom: 100px;
+  }
+
+  #experience-beyond .section-header-left {
+    margin-top: 100px;
+  }
+
+  #leisure-travel img {
+    margin-bottom: 100px;
+  }
+
+  .romantic-text-block {
+    max-width: 320px;
+  }
+}
