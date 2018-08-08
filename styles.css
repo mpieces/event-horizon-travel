@@ -264,6 +264,10 @@ p {
   background-image: url("assets/image_2.jpg");
   border-left: 200px solid #fff;
   border-top: 700px solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #travel-content-box {
@@ -293,12 +297,12 @@ p {
                         PARALLAX (Generic)
 ======================================================*/
 
-.bg-parallax {
+/*.bg-parallax {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+}*/
 
 /*====================================================
                         EXPERIENCE BEYOND SECTION

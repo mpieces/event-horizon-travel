@@ -310,13 +310,22 @@
 
 @media (max-width: 400px) {
 
-  /*(changed from 320 to 400px)*/
+  #home-cover {
+    background-attachment: scroll;
+  }
+
+  #travel-bg-diagonal {
+    background-attachment: scroll;
+  }
+
+  /*(changed logo from 320 to 400px)*/
   #logo {
     margin: 0 auto;
 
   }
   .navbar-toggler {
     margin-left: 85%;
+    margin-top: 0;
   }
 
   #travel-content-box {
