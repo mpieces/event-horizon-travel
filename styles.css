@@ -216,6 +216,10 @@ p {
   color: #fff;
 }
 
+#elcome {
+  margin-left: -35px;
+}
+
 #welcome-paragraph {
   padding-top: 50px;
   height: 200px;
