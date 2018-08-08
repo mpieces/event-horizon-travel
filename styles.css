@@ -194,7 +194,26 @@ p {
 #first-letter {
   font-size: 170px;
   line-height: 118px;
-  margin-left: -86px;
+  margin-left: -84px;
+}
+
+.halfStyle {
+  position: relative;
+  display: inline-block;
+  width: 1;
+  overflow: hidden;
+  white-space: pre;
+}
+
+.halfStyle:before {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 48%;
+  content: attr(data-content);
+  overflow: hidden;
+  color: #fff;
 }
 
 #welcome-paragraph {
@@ -450,13 +469,14 @@ p {
 }
 
 .romantic-text h1 {
-  width: 800px;
-  background-color: white;
+  width: 447px;
+  background-color: #ffffff;
   height: 150px;
   position: absolute;
-  top: 350px;
+  top: 313px;
   left: 400px;
   padding: 50px;
+  font-size: 30px;
 }
 
 .line-block-3 {

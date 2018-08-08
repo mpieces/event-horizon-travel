@@ -60,7 +60,7 @@
     width: 250px;
     }
 
-    .wine img {
+    /*.wine img {
         margin-left: 25%;
         margin-right: 25%;
     }
@@ -74,7 +74,7 @@
     .romantic-text-block {
         left: 20%;
         margin-top: 175px;
-    }
+    }*/
 
   .line-block-3 {
     display: none;
@@ -91,6 +91,27 @@
     .extra-pic {
       display: none;
     }
+/*romantic getaways*/
+     .wine img {
+    margin: auto;
+    float: none;
+  }
+
+  .romantic-text h1 {
+    top: 500px;
+    left: 0;
+    margin-top: 100px;
+    padding: 0;
+  }
+
+  .romantic-text-block {
+    top: 650px;
+    left: 0;
+  }
+
+  .line-block-3 {
+    display: none;
+  }
 
 }
 
