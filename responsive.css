@@ -20,7 +20,7 @@
 
 /*Move "our passion for travel" section to left*/
   #travel-content-box {
-    margin-left: -60px;
+    margin-left: -20px;
   }
 
   .section-header-text {
@@ -48,44 +48,43 @@
 /* Small Devices (Portrait Tablets & Small Desktops) */
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+   #travel {
+    margin-top: 300px;
+   }
+
     #travel-content-box-outer {
         width: 75%;
         margin-top: 20px;
     }
 
+    /*Move "our passion for travel" section to left*/
+    #travel-content-box {
+      margin-left: -20px;
+    }
+
     .section-header-text {
-        line-height: 50px;
+      line-height: 50px;
     }
 
     .line-block {
-        width: 300px;
+      width: 300px;
     }
     .line-block-2 {
-    width: 250px;
+      width: 250px;
+      right: 60%;
+    }
+/*Move leisure text paragraph to left*/
+    #leisure-text {
+      margin-left: 0;
     }
 
-    /*.wine img {
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-
-    .romantic-text h1 {
-        top: 700px;
-        left: 20%;
-        padding: 0;
-    }
-
-    .romantic-text-block {
-        left: 20%;
-        margin-top: 175px;
-    }*/
-
-  .line-block-3 {
-    display: none;
+    .line-block-3 {
+      display: none;
     }
 
     #group-travel {
-        margin-top: 300px;
+      margin-top: 300px;
     }
 
     #contact-right {
@@ -95,6 +94,7 @@
     .extra-pic {
       display: none;
     }
+
 /*romantic getaways*/
      .wine img {
     margin: auto;
@@ -130,13 +130,17 @@
     width: 100%;
     height: 350px;
   }
+/*Decrease space between passion for travel and experience beyond?*/
+  /*#travel {
+    padding-bottom: 0;
+  }*/
 
   #line-block {
     display: none;
   }
 
   #travel-content-box {
-    margin-top: 150px;
+    margin-top: 350px;
     width: 500px;
   }
 
@@ -158,6 +162,10 @@
 
   .line-block-2 {
     display: none;
+  }
+
+  #leisure-text {
+    margin-left: 0;
   }
 /*need to center align image */
   .wine img {
@@ -181,6 +189,10 @@
     display: none;
   }
 
+  .group-travel-image {
+    margin-top: 100px;
+  }
+
 /*Line schema hidden*/
   .lines {
     display: none;
@@ -193,7 +205,6 @@
   .img-thumbnail img {
     max-width: 50%;
     margin: 0 auto;
-
   }
 
   .article {
@@ -201,6 +212,26 @@
   }
 }
 
+@media (max-width: 675px) {
+  /*PHOTOS UNEQUAL SIZES IN OUR FAVORITE DEST.*/
+
+  /*Hide large welcome text*/
+  #welcome-text-block {
+    display: none;
+  }
+
+  #experience-text {
+    margin-top: -75px;
+  }
+
+  #romantic-getaways {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 515px) {
+
+}
 
 /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
@@ -209,12 +240,20 @@
     display: none;
   }
 
+  #travel {
+    margin-top: 250px;
+  }
+
   #travel-content-box {
-    max-width: 450px;
+    max-width: 400px;
   }
 
   #experience-beyond {
     margin-top: -100px;
+  }
+
+  #experience-text {
+    margin-top: -40px;
   }
 
   .section-header-text {
@@ -230,16 +269,20 @@
     padding: 0 50px 0 50px;
   }
 
+  .wine img {
+    max-width: 400px;
+    margin-left: -30px;
+  }
+
   .romantic-text h1 {
-    max-width: 450px;
-    padding: 0 50px 0 50px;
+    margin-top: 50px;
+    max-width: 400px;
+    margin-left: -30px;
   }
 
   .romantic-text-block {
-    max-width: 450px;
-    margin-top: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
+    max-width: 400px;
+    margin-left: -30px;
   }
 
   #group-travel {
@@ -259,7 +302,7 @@
     margin-left: 25%;
   }
 
-  /*+ need to change width of Greece picture*/
+  /*+ need to change width of some photos in gallery*/
 }
 
 
