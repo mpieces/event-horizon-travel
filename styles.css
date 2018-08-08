@@ -233,7 +233,7 @@ p {
   border-top: 1px solid #5E5D56;
   border-left: 1px solid #5E5D56;
   height: 300px;
-  width: 300px;
+  width: 250px;
   position: relative;
 }
 
@@ -252,6 +252,7 @@ p {
 
 
 #travel-bg-diagonal {
+  margin-top: 100px;
   width: 60%;
   height: 700px;
   float: right;
@@ -283,28 +284,6 @@ p {
 }
 
 
-/*
-.cabana img {
-  width: 65%;
-  float: right;
-}
-
-.content {
-  width: 35%;
-  padding: 30px;
-  right: auto;
-  left: 200px;
-  top: 200px;
-  display: block;
-  float: left;
-  position: absolute;
-  background: #F1F1F2;
-  border-radius: 4px;
-  color: #3f484d;
-  z-index: 51;
-}*/
-
-
 /*====================================================
                         PARALLAX (Generic)
 ======================================================*/
@@ -316,65 +295,11 @@ p {
     background-attachment: fixed;
 }
 
-
-
-/*.main-image {
-  position: relative;
-}*/
-
-/*.header-text {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 25%;
-}*/
-
-/*.subheader-text {
-  color: white;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-}*/
-
-
-/*
-.text-block {
-  position: relative;
-  padding-top: 25px;
-
-  left: 50%;
-}
-*/
-/*.line-block-0 {
-  position: absolute;
-  left: 25%;
-  border-top: 1px solid #5E5D56;
-  border-left: 1px solid #5E5D56;
-  height: 150px;
-  width: 300px;
-}*/
-/*
-.line-block-0 img {
-  position: absolute;
-  bottom: -15px;
-  left: -15px;
-}
-
-.feature {
-  position: relative;
-}
-
-.bg {
-  background-size: cover;
-  min-height: 200px;
-  padding: 60px 0;
-}*/
-
 /*====================================================
                         EXPERIENCE BEYOND SECTION
 ======================================================*/
 #experience-beyond {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .image-wrapper {
@@ -457,6 +382,10 @@ p {
   z-index: 10;
 }
 
+#leisure-text {
+  margin-left: 25%;
+}
+
 
 /*====================================================
                         ROMANTIC GETAWAYS
@@ -521,9 +450,6 @@ p {
 }
 
 
-
-
-
 /*====================================================
                       FAVORITE DESTINATIONS
 ======================================================*/
@@ -564,12 +490,6 @@ p {
   margin-right: auto;
   margin-bottom: 200px;
 }
-/*
-.favorite-text {
-  position: absolute;
-  left: 750px;
-  margin-top: 100px;
-}*/
 
 #snow {
   max-width: 477px;

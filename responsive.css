@@ -17,7 +17,11 @@
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  /** Right white space showing!*/
+
+/*Move "our passion for travel" section to left*/
+  #travel-content-box {
+    margin-left: -60px;
+  }
 
   .section-header-text {
     line-height: 50px;
